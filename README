@@ -11,7 +11,7 @@ not something fancy, just click and run
 5. Take a break,then restart it
 
 ## Installation
-1. git clone https://github.com/YOUR_USERNAME/TouchGrass.git
+1. git clone https://github.com/bAmeGR/TouchGrass.git
 2. cd TouchGrass
 3. Python 3.7+ installed
 4. Install required dependencies:
