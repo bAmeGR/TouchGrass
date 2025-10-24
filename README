@@ -1,0 +1,19 @@
+# **TouchGrass** 
+
+i created this simple python app to remind me to take a break and not staring the monitor too much
+not something fancy, just click and run
+
+## How to Use
+1. Select your work duration
+2. Click "Start Timer"
+3. Work
+4. It will play a windows notification sound when the timer is over
+5. Take a break,then restart it
+
+## Installation
+1. git clone https://github.com/YOUR_USERNAME/TouchGrass.git
+2. cd TouchGrass
+3. Python 3.7+ installed
+4. Install required dependencies:
+5. pip install plyer
+6. python main.py
