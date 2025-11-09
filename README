@@ -14,6 +14,5 @@ not something fancy, just click and run
 1. git clone https://github.com/bAmeGR/TouchGrass.git
 2. cd TouchGrass
 3. Python 3.7+ installed
-4. Install required dependencies:
-5. pip install plyer
-6. python main.py
+4. pip install plyer
+5. python main.py
