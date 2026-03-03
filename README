@@ -1,18 +1,87 @@
-TouchGrass 
+# 🌿 TouchGrass
 
-i created this simple python app to remind me to take a break and not staring the monitor too much
-not something fancy, just click and run
+A lightweight cross-platform python productivity timer that reminds you to take a break.
 
-## How to Use
-1. Select your work duration
-2. Click "Start Timer"
-3. Work
-4. It will play a windows notification sound when the timer is over
-5. Take a break,then restart it
+---
 
-## Installation
-1. git clone https://github.com/bAmeGR/TouchGrass.git
-2. cd TouchGrass
-3. Python 3.7+ installed
-4. pip install plyer
-5. python main.py
+## ✨ Features
+
+- ⏱️ Customizable work session duration
+- 🔔 Desktop notifications via `plyer` (works on Ubuntu/Linux,macOS,Windows)
+- 🔊 Audio alert when your session ends
+- ⚙️ JSON-based settings for easy configuration
+- 🧩 Modular codebase — notification and time logic are decoupled
+
+---
+
+## 🖥️ Tested On
+
+- Ubuntu 22.04 / 24.04 (Linux)
+- Windows 10/11
+- Python 3.7+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/bAmeGR/TouchGrass.git
+cd TouchGrass
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the app
+
+```bash
+python main.py
+```
+
+---
+
+## ⚙️ Configuration
+
+Edit `settings.json` to customize default session durations and notification preferences:
+
+```json
+{
+  "default_duration_minutes": 25,
+  "notification_title": "Time to TouchGrass!",
+  "notification_message": "Step away from the screen and take a break."
+}
+```
+
+---
+
+## 📦 Requirements
+
+```
+plyer
+```
+
+Install with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 💡 Why I Built This
+
+Extended screen time without breaks is a real productivity and health issue.            TouchGrass is a minimal
+no-distraction tool that runs quietly in the background and nudges you to step away no accounts no login no cloud no bloat.
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify, and distribute.
+**Basilis Meristoudis** — Electronic Engineering Student, Hellenic Mediterranean University
+[GitHub](https://github.com/bAmeGR) • [LinkedIn](https://linkedin.com/in/your-profile)
